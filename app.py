@@ -49,4 +49,4 @@ st.image(img, width=300, caption="이미지 각주")
 #Widget
 # Checkbox
 if st.checkbox('show/Hide'):
-    st.text('Showing or Hiding Widget')
+    st.text('아직 보여줄것도 없는데 그냥 숨겨봄')
