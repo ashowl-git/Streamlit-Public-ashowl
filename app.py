@@ -1,7 +1,7 @@
 import streamlit as st 
 
 #Text/Title
-st.title("streamlit Tutorials")
+st.title("이것이 타이틀?")
 st.header("이것은 헤더이다")
 st.subheader("이것은 서브 헤더이다")
 st.text('이것은 그냥 텍스트이다')
