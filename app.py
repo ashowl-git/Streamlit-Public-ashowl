@@ -15,10 +15,10 @@ st.markdown(
 - 입니다 
 ''')
 # error / colorful text
-st.success("Successful")
-st.info('Infomation')
-st.warning('This is a warning')
-st.error('This is an error Danger')
+st.success("회색부엉이의 연어손질")
+st.info('연어종류 맞추기')
+st.warning('연어장 담그기 최적화 안하면 먹지마')
+st.error('에러는 무슨 먹고싶은대로 먹기')
 st.exception("NameError('name three not defined')")
 
 # get help info about python
@@ -26,7 +26,7 @@ st.exception("NameError('name three not defined')")
 st.help(range)
 
 # Writing Text
-st.write("Text with write")
+st.write("한글 잘 먹히나?")
 st.write(range(10))
 
 
