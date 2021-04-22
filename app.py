@@ -1,7 +1,7 @@
 import streamlit as st 
 
 #Text/Title
-st.title("이것이 타이틀?")
+st.title("어제 먹은 연어는 너무 맛있어서 울었다")
 st.header("이것은 헤더이다")
 st.subheader("이것은 서브 헤더이다")
 st.text('이것은 그냥 텍스트이다')
@@ -13,6 +13,7 @@ st.markdown(
 ## 마크
 ### 다운
 - 입니다 
+- 더이상 무슨 말이 필요?
 ''')
 # error / colorful text
 st.success("회색부엉이의 연어손질")
