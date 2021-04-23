@@ -50,3 +50,55 @@ st.image(img, width=300, caption="이미지 각주")
 # Checkbox
 if st.checkbox('show/Hide'):
     st.text('아직 보여줄것도 없는데 그냥 숨겨봄')
+
+#Radio Buttons
+status = st.radio("What is your status",("Active","Inactivate"))
+
+if status == 'Active':
+    st.success("you are Active")
+else:
+    st.warning("Inactiva, Activate")
+
+
+#SelectBox
+occupation = st.selectbox("Your Occupation",["Programmer", "DataScientist","Doctor","man"])
+st.write("You selected this option", occupation)
+
+#MultiSelect
+location = st.multiselect("Where do you work?", ("London","New York","seoul","korea"))
+st.write("You selected", len(location), "locations")
+
+#slider
+level = st.slider("What is your level", 1,5)
+
+#Buttons
+st.button("Simple Button")
+
+if st.button("About"):
+    st.text("Streamlit is Cool")
+
+
+# Text Input
+firstname = st.text_input("Enter Your Firstname", "Type Here..")
+if st.button('Submit'):
+    result = firstname.title()
+    st.success(result)
+
+# Text Area
+message = st.text_area("Enter Your message", "Type Here..")
+if st.button('Submit1'):
+    result = message.title()
+    st.success(result)
+
+#Date Input
+import datetime
+today = st.date_input("Today is", datetime.datetime.now())
+
+
+#Time
+the_time = st.time_input("the time is ", datetime.time())
+
+# Displaying json
+
+st.text("Display JSON")
+st.json({'name':"Jesse", 'gender':"male"})
